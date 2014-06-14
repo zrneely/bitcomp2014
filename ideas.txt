@@ -1,12 +1,18 @@
-Gambling +
-Stock Market -*
-Getting More Bitcoins *
-TechCash/Dining +
-Auction *+
-Who's Using Bitcoin? *+
-Currency Converter +
-Intro to Bitcoin *
-Professor Tipping +
-Bitcoin Dating (Bitdate) *+
-Small Kickstarer with Bitcoin ***
-VLog of Bitcoins **
+MIT focused ideas
+
+Gambling
+Stock Market
+TechCash/Dining
+Professor Tipping
+
+Beyond MIT Ideas
+
+Bitcoin Dating (Bitdate)
+Small Kickstarer with Bitcoin
+VLog of Bitcoins
+Intro to Bitcoin
+TechCash/Dining
+Auction
+Who's Using Bitcoin?
+Currency Converter
+Getting More Bitcoins
