@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/home/zrneely/bitcomp/bitcomp2014/android_workspace/.metadata/.plugins/org.eclipse.jdt.core
+3753811568.index
+2485032819.index
+1136135888.index

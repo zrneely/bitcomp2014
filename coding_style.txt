@@ -1,0 +1,76 @@
+SPALabs Coding Style
+
+I. Java
+    A. Encoding - All source files should use utf-8.
+
+    B. Whitespace - All indentation should be 4 spaces. No tabs should be used.
+
+    C. Escape Characters - Use special escape sequences like \n and \" when available. If none is available, use the Unicode escape sequence.
+
+    D. Source File Structure
+        1. First, license/copyright if present.
+        2. Second, `package` statement. Do not line wrap this statement - the column limit does not apply.
+        3. Third, `import` statement. Do not use any wildcard imports.  Each import is part of one group (each group separated by one blank line).
+            a. First, all static imports.
+            b. Second, any `org.spalabs` imports.
+            c. Third, any other third-party library (one group per top-level package)
+            d. `java` imports
+            e. `javax` imports
+        4. Finally, precisely one top-level, public class.
+
+    E. Class Declarations
+        1. Member ordering - In any logical order (not "chronological by date added").
+        2. Overloaded members - Must be one after another - no intervening methods/variables.
+        
+    F. Formatting
+        1. Braces
+            a. In `if`, `else`, `for`, `do`, and `while` loops, always use braces, even if the body has only one statement.
+            b. Don't put a line break before the opening brace, but do put one:
+                i. After the opening brace
+                ii. Before the closing brace
+                iii. After the closing brace, if the brace ends a statement, method, constructor, or named class.
+            c. Empty blocks may be concise, for example `void doNothing() {}`
+        2. One statement per line.
+        3. There should be no more than 100 columns in a line, except in situations where this can not be avoided and in `package` and `import` statements.
+            a. Line breaks at non-assignment operators go before the symbol.
+            b. Line breaks at assignment operators go after the symbol.
+            c. Do not break before a parentheses or comma.
+            d. Commands broken between lines should be indented by 8 spaces.
+        4. Put a space in these places within lines:
+            a. Between any reserved word and a parentheses that follows.
+            b. Between any closing brace and a reserved word.
+            c. Before any opening brace, except in annotations and after another opening brace.
+            d. On both sides of any binary or ternary operator or operator-like symbol (&, :)
+            e. After any comma, colon, or semicolon (not at the end of the line).
+            f. After the closing parentheses of a cast.
+            g. On both sides of the `//` that begins a comment.
+            h. Between the type and variable of a declaration.
+            i. Just inside both braces of an array literal.
+        5. Do not horizontally align declarations.
+        6. Always use grouping parentheses unless it is very clear what is meant without them.
+        7. Do not use multiple declarations on a single line; for example `int a, b;`.
+        8. Declare variables where needed and initialize them as soon as possible (in the same statement if possible).
+        9. Square brackets in array initializers go on the type, not the variable name.
+        10. In switch statments, do not indent the `case` statements, but do indent the blocks they control.
+        11. In case statements, if flow is not modified in some way (`break`, `return`, etc) mark with a comment the intent to fall through.
+        12. In switch statements, include a `default` branch, unless the argument is an enum and all values are accounted for.
+        13. Annotations should precede (on their own line) method declarations.
+        14. Block comments should have asterisks down the entire body, one per line followed by a space.
+        15. In block comments, do not create boxes around the text (with any character).
+        16. Literal long values should use a capital 'L' rather than a lowercase.
+
+    G. Naming
+        1. Every non-constant variable and method name should match the regex /\w+/. That is, no underscores, and use camelCase.
+        2. Package names should be lowercase, with words joined by concatenation (not underscores, etc).
+        3. Constants should use CONSTANT_CASE. This includes the values of enums.
+        4. Type variables should be a single uppercase letter, commonly T.
+        5. camelCase'd words' acronyms should be made lowercase, except the first letter. For example, `XML HTTP Request` becomes `XmlHttpRequest`.
+
+    H. General Practice
+        1. Always use the `@Override` annotation.
+        2. Avoid ignoring caught exceptions; if you do, note with a comment.
+        3. Don't override `Object.finalize`. Ever.
+
+    I. Javadoc
+        1. Put javadocs on every public class and on every public or protected member of a class, at minimum.
+        2. It would be nice to put them on all non-private members as well.

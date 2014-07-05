@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/giveButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="50dp"
+        android:layout_weight="0.5"
+        android:text="@string/giveButtonText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:orientation="horizontal">
+        	
+        	<Button
+        	    android:id="@+id/walletButton"
+        	    android:layout_width="0dp"
+        	    android:layout_height="wrap_content"
+        	    android:padding="10dp"
+        	    android:layout_weight="0.5"
+        	    android:text="@string/walletButtonText" />
+        	
+        	<Button
+        	    android:id="@+id/settingsButton"
+        	    android:layout_width="0dp"
+        	    android:layout_height="wrap_content" 
+        	    android:padding="10dp"
+        	    android:layout_weight="0.5"
+        	    android:text="@string/settingsButtonText" />
+        	    
+        
+    </LinearLayout>
+
+</LinearLayout>

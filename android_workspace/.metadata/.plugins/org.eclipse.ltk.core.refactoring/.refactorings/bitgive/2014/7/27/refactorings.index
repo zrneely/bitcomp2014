@@ -1,0 +1,4 @@
+1404580473235	Extracts string 'Button' into R.string.giveButtonText
+1404580532948	Rename field 'button1'
+1404583229606	Extracts string 'null' into R.string.walletButtonText
+1404583397421	Extracts string 'null' into R.string.settingsButtonText
