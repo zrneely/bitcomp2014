@@ -2,14 +2,30 @@ package org.spalabs.bitcomp.bitgive;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.view.Menu;
 
 public class HomeScreenActivity extends Activity {
+	
+	public static final String PREFS_NAME = "org.spalabs.bitcomp.bitgive.SharedPrefs";
+	public static final String PREF_USER_EXITS = "USER_EXISTS";
+	public static final String PREF_MAIN_BTC_ADDR = "MAIN_BTC";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+        
+        SharedPreferences sPrefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
+        if(!sPrefs.getBoolean(PREF_USER_EXITS, false)){
+        	// We need to get a user set up before anything will work
+        	Intent intent = new Intent(this, UserInitActivity.class);
+        	startActivity(intent);
+        	finish(); // Comment this line to let the user cancel initialization
+        }
+        else {
+        	setContentView(R.layout.activity_home_screen);
+        }
     }
 
 

@@ -3,11 +3,29 @@
 
     <string name="app_name">bitGive</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="giveButtonText">Give</string>
     <string name="walletButtonText">Wallet</string>
     <string name="settingsButtonText">Settings</string>
     <string name="aboutButtonText">About</string>
-    <string name="otherButtonText">Other</string>
+    <string name="title_activity_user_init">UserInitActivity</string>
+    <string name="syncingExplanation1">Please wait while we synchronize the blockchain.</string>
+    <string name="syncingExplanation2">This is a step all bitcoin applications must take.</string>
+    <string name="syncingExplanation3">It could take a long time, and we recommend using wifi for this step.</string>
+    <string name="syncingExplanation4">In the meantime, please continue setup.</string>
+    <string name="userNameEditHint">Your Name</string>
+    <string name="patternExplanation">Please draw a pattern to secure the app with:</string>
+    <string name="patternButtonText">Draw Pattern</string>
+    <string name="failure">Something went wrong that shouldn\'t have :(</string>
+    <string name="mainAddressExplanation">Please enter information about your main bitcoin wallet, so you can return money to it easily.</string>
+    <string name="typeBTCButtonText">Type a Bitcoin Address</string>
+    <string name="qrBTCButtonText">Take a Picture of a QR Code Bitcoin Address</string>
+    <string name="invalidBTCAddress">Not a Bitcoin Address!</string>
+    <string name="finishButtonText">Finish!</string>
+    <string name="errEnterPattern">Please Enter a Pattern</string>
+    <string name="errEnterMainAddr">Please Select a Main Address</string>
+    <string name="errEnterName">Please Enter Your Name</string>
+    <string name="typeBTCTitle">Bitcoin Adddress</string>
+    <string name="patternTextPrefix">Passcode (from pattern): </string>
+    <string name="addressTextPrefix">Main Bitcoin Address: </string>
 
 </resources>
