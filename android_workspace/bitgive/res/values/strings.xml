@@ -24,8 +24,11 @@
     <string name="errEnterPattern">Please Enter a Pattern</string>
     <string name="errEnterMainAddr">Please Select a Main Address</string>
     <string name="errEnterName">Please Enter Your Name</string>
+    <string name="errBlockchain">The Blockchain is not finished synchronizing!</string>
     <string name="typeBTCTitle">Bitcoin Adddress</string>
     <string name="patternTextPrefix">Passcode (from pattern): </string>
     <string name="addressTextPrefix">Main Bitcoin Address: </string>
+    <string name="title_activity_give">GiveActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

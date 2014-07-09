@@ -117,15 +117,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int alp_42447968_pkey_display_min_wired_dots_default=0x7f080000;
     }
     public static final class layout {
-        public static final int activity_home_screen=0x7f030000;
-        public static final int activity_user_init=0x7f030001;
-        public static final int alp_42447968_lock_pattern_activity=0x7f030002;
-        public static final int alp_42447968_lock_pattern_activity_land=0x7f030003;
-        public static final int alp_42447968_lock_pattern_view=0x7f030004;
+        public static final int activity_give=0x7f030000;
+        public static final int activity_home_screen=0x7f030001;
+        public static final int activity_user_init=0x7f030002;
+        public static final int alp_42447968_lock_pattern_activity=0x7f030003;
+        public static final int alp_42447968_lock_pattern_activity_land=0x7f030004;
+        public static final int alp_42447968_lock_pattern_view=0x7f030005;
     }
     public static final class menu {
-        public static final int home_screen=0x7f0b0000;
-        public static final int user_init=0x7f0b0001;
+        public static final int give=0x7f0b0000;
+        public static final int home_screen=0x7f0b0001;
+        public static final int user_init=0x7f0b0002;
     }
     public static final class plurals {
         public static final int alp_42447968_pmsg_connect_x_dots=0x7f090000;
@@ -133,7 +135,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class string {
         public static final int aboutButtonText=0x7f06001d;
         public static final int action_settings=0x7f060019;
-        public static final int addressTextPrefix=0x7f060031;
+        public static final int addressTextPrefix=0x7f060032;
         public static final int alp_42447968_cmd_confirm=0x7f060007;
         public static final int alp_42447968_cmd_continue=0x7f060008;
         public static final int alp_42447968_cmd_forgot_pattern=0x7f060009;
@@ -159,26 +161,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int alp_42447968_pkey_sys_encrypter_class=0x7f060002;
         public static final int alp_42447968_pkey_sys_pattern=0x7f060000;
         public static final int app_name=0x7f060018;
+        public static final int errBlockchain=0x7f06002f;
         public static final int errEnterMainAddr=0x7f06002d;
         public static final int errEnterName=0x7f06002e;
         public static final int errEnterPattern=0x7f06002c;
         public static final int failure=0x7f060026;
         public static final int finishButtonText=0x7f06002b;
         public static final int giveButtonText=0x7f06001a;
+        public static final int hello_world=0x7f060034;
         public static final int invalidBTCAddress=0x7f06002a;
         public static final int mainAddressExplanation=0x7f060027;
         public static final int patternButtonText=0x7f060025;
         public static final int patternExplanation=0x7f060024;
-        public static final int patternTextPrefix=0x7f060030;
+        public static final int patternTextPrefix=0x7f060031;
         public static final int qrBTCButtonText=0x7f060029;
         public static final int settingsButtonText=0x7f06001c;
         public static final int syncingExplanation1=0x7f06001f;
         public static final int syncingExplanation2=0x7f060020;
         public static final int syncingExplanation3=0x7f060021;
         public static final int syncingExplanation4=0x7f060022;
+        public static final int title_activity_give=0x7f060033;
         public static final int title_activity_user_init=0x7f06001e;
         public static final int typeBTCButtonText=0x7f060028;
-        public static final int typeBTCTitle=0x7f06002f;
+        public static final int typeBTCTitle=0x7f060030;
         public static final int userNameEditHint=0x7f060023;
         public static final int walletButtonText=0x7f06001b;
     }

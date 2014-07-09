@@ -33,7 +33,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="org.spalabs.bitcomp.bitgive.HomeScreenActivity" />
         </activity>
-        <activity android:theme="@style/Alp.42447968.Theme.Light.DarkActionBar" android:name="com.haibison.android.lockpattern.LockPatternActivity"></activity>
+        <activity
+            android:name="com.haibison.android.lockpattern.LockPatternActivity"
+            android:theme="@style/Alp.42447968.Theme.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name="org.spalabs.bitcomp.bitgive.GiveActivity"
+            android:label="@string/title_activity_give"
+            android:parentActivityName="org.spalabs.bitcomp.bitgive.HomeScreenActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.spalabs.bitcomp.bitgive.HomeScreenActivity" />
+        </activity>
     </application>
 
 </manifest>
